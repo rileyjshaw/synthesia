@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Synthesia</title>
+		<style>
+			html, body {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+
+	<script>
+		const {style} = document.body;
+
+		require('electron').ipcRenderer.on('beauty', (e, [h, s, l]) => {
+			style.background = `hsl(${h}, ${s * 100}%, ${l * 100}%)`;
+		});
+	</script>
+</html>

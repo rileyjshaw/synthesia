@@ -1,0 +1,39 @@
+{
+	"name": "synthesia",
+	"version": "1.0.0",
+	"description": "Turn MIDI notes into colors",
+	"main": "./index.js",
+	"scripts": {
+		"start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rileyjshaw/synthesia.git"
+	},
+	"keywords": [
+		"MIDI",
+		"synthesizer",
+		"synesthesia",
+		"keyboard",
+		"music",
+		"audio",
+		"colors",
+		"spectrum"
+	],
+	"author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rileyjshaw/synthesia/issues"
+	},
+	"homepage": "https://github.com/rileyjshaw/synthesia#readme",
+	"dependencies": {
+		"midi": "^0.9.4"
+	},
+	"devDependencies": {
+		"babel-core": "^6.9.1",
+		"babel-loader": "^6.2.4",
+		"babel-preset-es2015": "^6.9.0",
+		"electron-prebuilt": "^1.2.1"
+	}
+}
