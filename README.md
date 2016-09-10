@@ -11,6 +11,7 @@ Turn MIDI notes into colors.
 git clone https://github.com/rileyjshaw/synthesia.git
 cd synthesia
 npm i
+./node_modules/.bin/electron-rebuild
 ```
 
 ## Use

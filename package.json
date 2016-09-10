@@ -28,12 +28,13 @@
 	},
 	"homepage": "https://github.com/rileyjshaw/synthesia#readme",
 	"dependencies": {
-		"midi": "^0.9.4"
+		"midi": "^0.9.5"
 	},
 	"devDependencies": {
 		"babel-core": "^6.9.1",
 		"babel-loader": "^6.2.4",
 		"babel-preset-es2015": "^6.9.0",
-		"electron-prebuilt": "^1.2.1"
+		"electron-prebuilt": "^1.2.1",
+		"electron-rebuild": "^1.2.1"
 	}
 }
